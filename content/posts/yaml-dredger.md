@@ -1,11 +1,8 @@
-+++
-date = '2019-12-31'
-draft = false
-title = 'Map the metadata of your YAML'
-description = 'This explains admonition shortcode implementation'
-+++
-# Have you ever had 1000+ YAML files and needed to know the common data structure?
-
+---
+title: "Map the metadata of your YAML"
+date: 2019-12-31
+tags: ["yaml", "metadata", "tools"]
+---
 ## yaml-dredger
 
 I thought it would be useful to analyze the structure of YAML files at scale.
