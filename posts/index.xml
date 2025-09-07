@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Posts on Neil Spink</title><link>https://example.org/posts/</link><description>Recent content in Posts on Neil Spink</description><generator>Hugo -- 0.118.2</generator><language>en-us</language><lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>100days.ink — A Commitment Engine</title><link>https://example.org/posts/100days/</link><pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate><guid>https://example.org/posts/100days/</guid><description>&amp;lt;no value&amp;gt;</description><content type="text/html" mode="escaped"><![CDATA[<p>I’ve been building <a href="https://100days.ink">100days.ink</a>, a small app with a big purpose:<br>
+help people commit to something for 100 days and actually follow through.</p>
+<p>The rules are simple:</p>
+<ul>
+<li>Write down your 100-day commitment.</li>
+<li>Pick a start or end date.</li>
+<li>Decide if it’s private, public, or shared with the community.</li>
+<li>Put some skin in the game — tip from $2 to $147.</li>
+</ul>
+<p>That’s it. No feeds. No distractions. Just you versus the next 100 days.</p>
+<p><img src="/images/100daysink.png" alt="100Days.ink landing page"></p>
+<p>The idea comes from watching people like <strong>Simon Squibb</strong> (give without take) and a video <a href="https://youtu.be/vWU5O7cK7aI?si=Qvuerw0Zx3Y68PMf">I Worked Out Like David Goggins for 100 Days</a>. Both showed me what happens when you commit: momentum compounds, discipline hardens, and you leave the dabbling behind. That lit the spark for my own 100-day project but instead of only fitness, I wanted to build a commitment engine. Something that turns promises into action and accountability into a game you can actually win.</p>
+<p>Right now the code is still private, but I’ve been iterating in the open with a lean stack. Firebase gives me a NoSQL backend that provides good granual access control and easy auth. I extended it with Firebase Storage for images, because words aren’t always enough. On top of that I run a free cron-job.org task to push daily reminders with short coaching notes to the mailbox and a weekly digest newsletter. To make it dynamic, the AI coach actually changes tone: if you skip check-ins, the temperature parameter gets dialed up, making the responses a little sharper, a little more urgent. It was fun hacking psychology into the code.</p>
+<p>And that’s really the point: 100days.ink isn’t just a website, it’s a tool for future-proofing your discipline. You declare a mission, you ink it, and you face yourself for 100 days straight. The app is minimal on purpose: less polish, more punch. A fun MVP.</p>
+]]></content></item><item><title>Recaptures: a one‑minute screen capture journal (C#)</title><link>https://example.org/posts/recaptures/</link><pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate><guid>https://example.org/posts/recaptures/</guid><description>&amp;lt;no value&amp;gt;</description><content type="text/html" mode="escaped"><![CDATA[<h2 id="why-i-built-it">Why I built it<a href="#why-i-built-it" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>In 2020, <em>everyone</em> was home; Parents, kids, teachers. My son had school on the computer and I had work. Like many parents, “Trust is good, control is better,” my wife said, so I built a way to see what my son was actually doing.</p>
+<p>I wanted a <strong>visual record of work</strong> without manual logging—something I could glance back on to reconstruct what he did.  So I wrote <strong>Recaptures</strong>, a tiny Windows app that <strong>screenshots once per minute</strong> and <strong>uploads the JPEG</strong> to remote storage.</p>
+<ul>
+<li>Language: <strong>C# / .NET (WinForms host)</strong></li>
+<li>Packages: <strong>FluentFTP</strong> for FTPS, <strong>Serilog</strong> for logs</li>
+<li>Strategy: minimal timer + full-screen capture + JPEG quality control</li>
+</ul>
+<p>Repo: <code>https://github.com/neilspink/recaptures</code></p>
+<h3 id="prolog">Prolog<a href="#prolog" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<p>My son hated it. When he was caught not working on school stuff, he quickly discovered why: the app. :) It was fun (for me) watching him try to hack it in real time.</p>
+<p>For him, it was surveillance. For me, it was peace of mind. But I’ll give him credit: it <strong>raised his IT game</strong>, and that, in a way, was also part of the lesson.</p>
+]]></content></item><item><title>Building a Mood Barometer: The IoT Workshop at Swiss Re</title><link>https://example.org/posts/mood/</link><pubDate>Sun, 16 Feb 2020 00:00:00 +0000</pubDate><guid>https://example.org/posts/mood/</guid><description>&amp;lt;no value&amp;gt;</description><content type="text/html" mode="escaped"><![CDATA[<h2 id="building-a-mood-barometer-the-iot-workshop-at-swiss-re">Building a Mood Barometer: The IoT Workshop at Swiss Re<a href="#building-a-mood-barometer-the-iot-workshop-at-swiss-re" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>n early 2020, I hosted a hands-on IoT workshop at Swiss Re. The challenge? Build a mood barometer — a physical dial that reflects the emotional &ldquo;weather&rdquo; of a space.</p>
+<p>Each team flashed an ESP32, wrote Arduino code to read mood values over HTTP or MQTT, and moved a dial to match. No soldering — just ESP32 boards, stepper motors, and a magnet sensor wired up to detect calibration points. A few hundred francs in parts. Build it. Ship it. Make it move.</p>
+<p>I prepped three micro-projects to help them get there:</p>
+<ul>
+<li>
+<p><a href="https://github.com/neilspink/mood-barometer"><strong>mood-barometer</strong></a>:<br>
+ESP32-based analog mood dial powered by a stepper motor and magnet sensor. It listens for MQTT messages and moves the needle to happy, neutral, or sad. Includes the GIMP dial art and Fusion 360 housing.</p>
+</li>
+<li>
+<p><a href="https://github.com/neilspink/mood-infrared-controlled"><strong>mood-infrared-controlled</strong></a>:<br>
+For teams that didn’t want to mess with networking. Used any IR remote to manually set the mood. Just fun to play with.</p>
+</li>
+<li>
+<p><a href="https://github.com/neilspink/mood-mqtt-client-nodejs"><strong>mood-mqtt-client-nodejs</strong></a>:<br>
+Node.js MQTT publisher — a CLI tool to simulate inputs or act as a bridge between UI and device.</p>
+</li>
+</ul>
+<hr>
+<h3 id="barometer-prototypeimagespicture-frontjpg"><img src="/images/picture-front.jpg" alt="Barometer prototype"><a href="#barometer-prototypeimagespicture-frontjpg" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<h3 id="back-of-the-barometerimagespicture-backjpg"><img src="/images/picture-back.jpg" alt="Back of the Barometer"><a href="#back-of-the-barometerimagespicture-backjpg" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h3>
+<hr>
+<p>A colleague stepped up and helped design a <strong>custom PCB</strong>, so teams weren&rsquo;t fumbling with jumper wires all day. That took things to another level. Everyone had something solid to build with — and take home.</p>
+<p>Some used a <strong>local MQTT bridge</strong>, others connected to <strong>Azure IoT Hub</strong> with device provisioning and telemetry reporting. A few hundred francs in hardware, a shared repo, and some printed cheat sheets — that&rsquo;s all it took.</p>
+<p>It turned out to be one of the most satisfying workshops I’ve ever run.</p>
+]]></content></item><item><title>Map the metadata of your YAML</title><link>https://example.org/posts/yaml-dredger/</link><pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate><guid>https://example.org/posts/yaml-dredger/</guid><description>&amp;lt;no value&amp;gt;</description><content type="text/html" mode="escaped"><![CDATA[<h2 id="yaml-dredger">yaml-dredger<a href="#yaml-dredger" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>I thought it would be useful to analyze the structure of YAML files at scale.</p>
+<p>YAML gets used for everything — APIs, configurations, Kubernetes, data specs — and often no one really knows what&rsquo;s in the files. This script crawls a folder of YAML and gives you a kind of map: what entities exist, what fields they have, and where they show up.</p>
+<p>It&rsquo;s not pretty — but it works. And it’s fast enough for real datasets.</p>
+<h2 id="why-i-built-it">Why I Built It<a href="#why-i-built-it" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Back in 2001 at Swiss Re, I helped build a large reporting system on DB2. We relied heavily on metadata — not just to document views but to generate and trace them. That stuck with me.</p>
+<p>Years later, while exploring Alibaba Cloud, I entered their <strong><a href="https://www.alibabacloud.com/blog/cricket-wickets-and-big-data_595336">Cricket, Wickets and Big Data</a></strong> challenge. The contest involved analyzing over 1,400 international cricket matches using Alibaba’s big data tools. After completing the Big Data learning path, I was handed the dataset — mostly raw YAML.</p>
+<p>This tool helped me break that down. I wanted to know: What entities exist? What the attributes are? Which files contain what?</p>
+<p>The project is done in JavaScript, source code available on <a href="https://github.com/neilspink/yaml-dredger">Github</a>.</p>
+]]></content></item><item><title>Subutai P2P Cloud + Minecraft Hosting</title><link>https://example.org/posts/subutai-minecraft/</link><pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate><guid>https://example.org/posts/subutai-minecraft/</guid><description>&amp;lt;no value&amp;gt;</description><content type="text/html" mode="escaped"><![CDATA[<h2 id="why-subutai-grabbed-me">Why Subutai grabbed me<a href="#why-subutai-grabbed-me" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Subutai™ is the first real <strong>Peer-to-Peer (P2P) Cloud Computing platform</strong> I’d seen.<br>
+Born out of a defense research project, it let anyone create a secure, distributed cloud using spare resources — not Amazon’s, not Google’s, but yours.</p>
+<p>The idea of a <strong>democratized cloud</strong> felt ahead of its time, and I wanted in.</p>
+<hr>
+<h2 id="my-contribution-minecraft-hosting">My contribution: Minecraft hosting<a href="#my-contribution-minecraft-hosting" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Subutai apps are packaged as <strong>Blueprints</strong> — JSON templates you can share on the Bazaar marketplace.<br>
+I wrote one for <strong>Minecraft hosting</strong>:</p>
+<p>👉 <a href="https://github.com/neilspink/subutai-blueprint-minecraft">github.com/neilspink/subutai-blueprint-minecraft</a></p>
+<p>With it, anyone could spin up a Minecraft server inside their own P2P cloud in minutes. It wasn’t just about gaming — it was a way to show that Subutai could power <em>everyday communities</em>, not just IoT or enterprise workloads.</p>
+<hr>
+<h2 id="running-two-nodes-in-switzerland">Running two nodes in Switzerland<a href="#running-two-nodes-in-switzerland" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>I didn’t just code it; I ran it. For two years I hosted <strong>two Subutai nodes in Switzerland</strong>, in different locations. One in my flat, another in a family member’s home.</p>
+<p>That gave me my own tiny but real <strong>private cloud</strong>, geo-separated and resilient enough to run the Minecraft world my son and his friends played in. It proved the point: with Subutai, ordinary people could build and control their own cloud.</p>
+<hr>
+<h2 id="what-it-meant">What it meant<a href="#what-it-meant" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+      <line x1="8" y1="12" x2="16" y2="12"></line>
+   </svg></a></h2>
+<p>Writing the Minecraft blueprint and hosting those nodes made decentralization personal. It wasn’t theory — it was my hardware, my rules, my cloud.</p>
+<p>That’s the future I’d still like to see: <strong>clouds that belong to people, not just corporations.</strong></p>
+]]></content></item></channel></rss>
