@@ -1,0 +1,33 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Neil Spink'
+theme = 'hermit-v2'
+
+[params]
+  description = "Coding blog"
+
+  # images = [""]
+  themeColor = "#494f5c"
+  accentColor = "#018472"
+
+  [params.dateform]
+    LongDate = "Jan 2, 2006"
+    ShortDate = "Jan 2"
+    NumDateShort = "2006-01-02"
+    NumDateLong = "2006-01-02 15:04 -0700"
+
+  [params.gallery]
+    enable = true
+    thumbnail = '300'
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/neilspink"
+
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10

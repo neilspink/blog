@@ -1,0 +1,21 @@
+# Hugo output directory
+/public/
+resources/_gen/
+
+# Hugo cache
+hugo_stats.json
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+node_modules/
