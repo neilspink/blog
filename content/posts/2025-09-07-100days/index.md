@@ -16,7 +16,7 @@ The rules are simple:
 
 That’s it. No feeds. No distractions. Just you versus the next 100 days.
 
-![100Days.ink landing page](/images/100daysink.png)
+![100Days.ink landing page](100daysink.png)
 
 The idea comes from watching people like **Simon Squibb** (give without take) and a video [I Worked Out Like David Goggins for 100 Days](https://youtu.be/vWU5O7cK7aI?si=Qvuerw0Zx3Y68PMf). Both showed me what happens when you commit: momentum compounds, discipline hardens, and you leave the dabbling behind. That lit the spark for my own 100-day project but instead of only fitness, I wanted to build a commitment engine. Something that turns promises into action and accountability into a game you can actually win.
 

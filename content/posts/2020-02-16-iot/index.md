@@ -22,8 +22,8 @@ I prepped three micro-projects to help them get there:
 
 ---
 
-### ![Barometer prototype](/images/picture-front.jpg)
-### ![Back of the Barometer](/images/picture-back.jpg)
+### ![Barometer prototype](picture-front.jpg)
+### ![Back of the Barometer](picture-back.jpg)
 
 ---
 
