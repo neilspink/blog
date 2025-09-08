@@ -1,7 +1,6 @@
 ---
 title: "Recaptures: a one‑minute screen capture journal (C#)"
 date: 2020-05-14
-slug: "recaptures"
 tags: ["csharp", "windows", "automation", "screen-capture", "fluentftp", "serilog", "privacy", "productivity"]
 summary: "A tiny Windows utility that snapshots your screen every minute and ships it to storage—useful for a visual work log."
 ---

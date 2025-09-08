@@ -1,7 +1,6 @@
 ---
 title: "Subutai P2P Cloud + Minecraft Hosting"
 date: 2018-10-10
-slug: "subutai-minecraft"
 tags: ["subutai", "p2p", "cloud", "minecraft", "decentralization"]
 summary: "Why Subutai’s P2P cloud grabbed me and how I wrote a Minecraft hosting blueprint to be part of it."
 ---
