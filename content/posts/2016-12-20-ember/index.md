@@ -4,7 +4,7 @@ date: 2016-12-20
 draft: false
 ---
 
-Late in 2016 I dove into Ember.js and JavaScript to build the **Speed Comparison** client, a fun tool that lets you dig into the performance of websites with a slick, responsive interface. The client is an Ember app crafted during an 8 sincle week sprints, paired with a custom server component that handles data collection and serves up the numbers. It was a great learning curve, blending front-end frameworks with backend logic to visualize real-world performance metrics. The full project is available on GitHub, split between the **client** (Ember UI) and **server** (data provider), in case you want to poke through the code.
+Late in 2016 I dove into Ember.js and JavaScript to build the **Speed Comparison** project—a fun tool that measures and visualizes website performance. The work was structured as **eight weekly sprints**, giving me a chance to iterate quickly, experiment with features, and learn by doing. The **client** is an Ember.js application with a responsive UI, while the **server** component collects and serves up the performance data. Together they form a simple but effective way to explore how different sites stack up in terms of speed. It was a rewarding introduction to front-end frameworks and backend integration, and the code remains on GitHub as a snapshot of that learning journey.
 
 - Client (Ember.js): [speed-comparison-client](https://github.com/neilspink/speed-comparison-client) 
 - Server: [speed-comparison-server](https://github.com/neilspink/speed-comparison-server)
