@@ -3,9 +3,8 @@ title: "Building a Mood Barometer: The IoT Workshop at Swiss Re"
 date: 2020-02-16
 tags: ["iot", "workshop", "esp32", "mqtt", "azure", "hardware"]
 ---
-## Building a Mood Barometer: The IoT Workshop at Swiss Re
 
-n early 2020, I hosted a hands-on IoT workshop at Swiss Re. The challenge? Build a mood barometer — a physical dial that reflects the emotional "weather" of a space.
+In early 2020, I hosted a hands-on IoT workshop at Swiss Re. The challenge? Build a mood barometer — a physical dial that reflects the emotional "weather" of a space.
 
 Each team flashed an ESP32, wrote Arduino code to read mood values over HTTP or MQTT, and moved a dial to match. No soldering — just ESP32 boards, stepper motors, and a magnet sensor wired up to detect calibration points. A few hundred francs in parts. Build it. Ship it. Make it move.
 
