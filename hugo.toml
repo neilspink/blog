@@ -5,6 +5,8 @@ theme = 'hermit-v2'
 
 [params]
   description = "Coding blog"
+  FooterCopyright = 'Personal Blog'
+  Tags = false
 
   # images = [""]
   themeColor = "#494f5c"
@@ -31,3 +33,8 @@ theme = 'hermit-v2'
     name = "Posts"
     url = "posts/"
     weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "https://www.linkedin.com/in/neilspink/"
+    weight = 20

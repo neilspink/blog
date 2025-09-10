@@ -8,4 +8,4 @@ I built **Tidbit**, a lightweight Discord bot that listens for mentions and turn
 
 ![Discord chat screenshot](example.png)
 
-Check out the [source on GitHub](https://github.com/yourusername/tidbit) and feel free to run it in your own server or extend it with new features.
+Check out the [source on GitHub](https://github.com/neilspink/Tidbit-Doctor-Strew) and feel free to run it in your own server or extend it with new features.
